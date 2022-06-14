@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(13, 61, 219);
+    gap: 30px;
+    padding: 30px 0;
+    font-family: 'Kinetika';
+}
+
+.symptoms,.symptoms-answer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(136, 136, 136, 0.504);
+    width: 80%;
+    padding: 20px 60px;
+    border-radius: 15px;
+}
+
+.symptoms-title {
+    font-size: 28px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    text-shadow: 1xp 1px 5px #000000;
+}
+
+.symptoms-subtitle {
+    font-size: 20px;
+    color: aliceblue;
+    text-shadow: 1xp 1px 5px #000000;
+}
+
+.symptoms-btn {
+    padding: 15px 20px;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
+
+form {
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.symptoms-answer {
+    display: none;
+}
