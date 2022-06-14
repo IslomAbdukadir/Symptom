@@ -14,21 +14,17 @@ var heart = ["Miyokard infarkti", "Perikardit", "Miyokardit", "O'tkir xoletsisti
 generate.addEventListener("click", function () {
 
     generateRandom();
+    generateRandom2();
+
 
 })
 
 function generateRandom() {
-    var randomWord = head[Math.floor(Math.random() * head.length)];
-    headh1.textContent = randomWord; 
+    var randomWord1 = head[Math.floor(Math.random() * head.length)];
+    headh1.innerHTML = randomWord1; 
 }
 
-generate.addEventListener("click", function () {
-
-    generateRandom2();
-
-})
-
 function generateRandom2() {
-    var randomWord = heart[Math.floor(Math.random() * heart.length)];
-    hearth1.textContent = randomWord; 
+    var randomWord2 = heart[Math.floor(Math.random() * heart.length)];
+    hearth1.innerHTML = randomWord2; 
 }
